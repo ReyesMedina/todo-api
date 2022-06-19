@@ -12,4 +12,9 @@ public class TaskDTO {
     private LocalDateTime eta;
 
 
+    public TaskDTO(String title, String description, LocalDateTime eta) {
+        this.title = title;
+        this.description=description;
+        this.eta=eta;
+    }
 }
